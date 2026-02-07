@@ -1,0 +1,26 @@
+# YouTube Analytics Project - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# YouTube API
+google-api-python-client==2.80.0
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==1.0.0
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Statistical Analysis
+scipy==1.10.1
+statsmodels==0.14.0
+
+# Environment Management
+python-dotenv==1.0.0
+
+# Optional: Jupyter Notebook Support
+jupyter==1.0.0
+ipykernel==6.22.0
