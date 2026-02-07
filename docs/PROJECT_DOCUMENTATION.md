@@ -323,7 +323,6 @@ youtube-channel-analytics/
 │
 ├── data/  
 │   ├── youtube_analytics_data.csv        # Extracted data
-│   └── processed_data.csv                # Processed dataset
 │
 ├── visualizations/
 │   ├── duration_distribution.png
