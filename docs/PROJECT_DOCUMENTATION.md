@@ -95,7 +95,7 @@ echo "API_KEY=your_youtube_api_key_here" > .env
 5. Configure API Key:
    ```bash
    # Save in .env file
-   API_KEY=AIzaSyBrUlfBgwuhZ4xS0ScVWXIlGxOYmCuvgXE
+   API_KEY=your_actual_youtube_api_key
    ```
 
 ### Step 2: Data Extraction Process
