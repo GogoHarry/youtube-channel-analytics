@@ -121,7 +121,7 @@ pip list
    Open `.env` and replace with your actual API key:
    
    ```
-   API_KEY=AIzaSyBrUlfBgwuhZ4xS0ScVWXIlGxOYmCuvgXE
+   API_KEY=your_actual_youtube_api_key
    ```
 
 3. **Secure Your API Key**
@@ -500,14 +500,6 @@ After completing basic analysis:
 - **Python Documentation:** https://docs.python.org/3/
 - **Pandas Tutorials:** https://pandas.pydata.org/docs/getting_started/intro_tutorials/
 - **Stack Overflow:** https://stackoverflow.com/questions/tagged/youtube-api
-
----
-
-## 10. Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | Feb 2025 | Initial release with complete analysis pipeline |
 
 ---
 
