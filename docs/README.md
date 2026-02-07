@@ -147,13 +147,31 @@ pip install -r requirements.txt
 
 ### Set Up Environment
 
-Create a `.env` file in the project root:
+**⚠️ IMPORTANT:** Never commit your `.env` file!
 
-```env
-API_KEY=AIzaSyBrUlfBgwuhZ4xS0ScVWXIlGxOYmCuvgXE
+### First-Time Setup
+
+1. **Create `.env` file** in project root:
+```bash
+   cp .env.example .env
 ```
+2. **Add your YouTube API key** to `.env`:
+```
+   API_KEY=your_actual_youtube_api_key_here
+```
+3. **Verify `.env` is gitignored**:
+```bash
+   git status
+```
+   You should NOT see `.env` in the list.
+   
+🔒 **Your API key should NEVER appear in:**
+- Jupyter notebooks
+- Python scripts
+- Git commits
+- GitHub repository
 
-⚠️ **Security Note:** Never commit `.env` to version control!
+---
 
 ### Configure Target Channel (Optional)
 
@@ -165,7 +183,6 @@ class YouTubeConfig:
         # ... other code ...
         self.channel_id = "YOUR_CHANNEL_ID_HERE"
 ```
-
 ---
 
 ## 🎮 Usage
